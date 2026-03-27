@@ -16,7 +16,7 @@
 }
 
 body,html{
-    background-color: #654a4a;
+    background-color: #C2A18F;
     height: 100vh;
     width: 100vw;
 }
@@ -34,10 +34,13 @@ main{
     transform: translate(-50%, -50%);
     overflow: hidden;
     background-color: white;
-    width: 250px;
-    height: 600px;
+    width: 280px;
+    height: 620px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+    transition: width .2s, heigth .2s;
+    transition-timing-function: ease;
 }
 
 #img{
@@ -50,4 +53,13 @@ main{
 #formulario{
     display: block;
     padding: 10px;
+}
+
+#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#formulario > p{
+    margin-bottom: 10px;
 }
