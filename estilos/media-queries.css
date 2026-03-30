@@ -1,18 +1,20 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 992px) and (orientation:landscape){
+@media screen and (min-width: 768px) and (max-width: 992px) {
     body{
         background-image: linear-gradient(to top, #654a4a, #C2A18F);
     }
         
     #login{
         width: 85vw;
+        height: 300px;
     }
 
     #img{
         float: left;
         width: 40%;
         height: 100%;
+        background-position: center top;
     }
 
     #formulario{
@@ -28,12 +30,14 @@
 
     #login{
         width: 900px;
+        height: 350px;
     }
 
     #img{
         float: left;
         width: 40%;
         height: 100%;
+        background-position: center top;
     }
 
     #formulario{
